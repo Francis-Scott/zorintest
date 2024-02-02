@@ -25,4 +25,4 @@ RUN chown -R nginx:nginx /usr/share/nginx/html && chmod -R 755 /usr/share/nginx/
 RUN touch /var/run/nginx.pid && \
     chown -R nginx:nginx /var/run/nginx.pid
 # Il container partirà come utente nginx (Definito nell'immagine)
-USER nginx
+USER nginx 
